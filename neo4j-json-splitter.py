@@ -41,7 +41,7 @@ with open('recipes.json') as data_file:
 lista = []
 recipes = {}
 for i, r in enumerate(data["recipes"]):
-	if(i > 2780):	
+	if(i > 7660):	
 		if(r['title'] is not None and r['title']):
 			lista.append(translate_recipe(r))
 		if(r['time']['cookingMins'] is None):
